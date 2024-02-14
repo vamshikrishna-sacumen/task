@@ -13,7 +13,7 @@ jobs:
       - name: create virtual environment
         run: |
           python3 -m venv venv
-          source vemv/bin/activate
+          source venv/bin/activate
         
       - name: Install dependencies
         run: |
